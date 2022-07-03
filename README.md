@@ -1,5 +1,4 @@
-# Medical_Records_Miniproject
-
+# Blockchain powered EHR
 
 
 
