@@ -5,6 +5,7 @@
 	body{
 		background-image: url('image.jpg');
 		background-size: 2000px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
 </style>
 </head>
@@ -12,7 +13,7 @@
 	<p><a href="hospital.html"><button type="submit" class="hidden" style='margin-right:16px'>Hospital Registration</button></a><a href="doctor.html"><button type="submit" class="hidden" style='margin-right:16px'>Doctor Registration</button></a><a href="patient.html"><button type="submit" class="hidden" style='margin-right:16px'>Patient Registration</button></a><a href="patient_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Patient Details</button></a><a href="record_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Medical Record</button></a><a href="examine_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Patient Examine details</button></a></p>
       
         <h1> Display Doctor Details</h1>
-		
+
         <script src="https://cdn.jsdelivr.net/npm/web3@1.2.8/dist/web3.js"></script>
     <script>	
 	
@@ -122,7 +123,7 @@
 		"type": "function"
 	}
 ]
-        var contractaddress = '0xe9659e5474ccd20eb2ccb6823188e9ab80a0d24c';
+        var contractaddress = '0xcF0b4a6c26148c6836A238592bF8dA3f9780Fcd9';
         
         function add_details() {
             var myContract = new web3.eth.Contract(abi,contractaddress, {from: account, gasPrice: '5000000', gas: '500000'});

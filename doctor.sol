@@ -36,7 +36,6 @@ contract Doctor {
          
         doctorlist[doctor_id] = d;
         
-        
    }
          
           /**

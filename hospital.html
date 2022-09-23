@@ -5,6 +5,7 @@
 	body{
 		background-image: url('image.jpg');
 		background-size: 2000px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
 	#myHeader{
 		text-decoration: underline;
@@ -116,7 +117,7 @@
 		"type": "function"
 	}
 ]
-        var contractaddress = '0x1a95809133b5c367cb76fa6e4094bd7991d5f5b5';
+        var contractaddress = '0x16bebd092c97150101fc0d8e5a573e0af28709f4';
         
         function add_details() {
             var myContract = new web3.eth.Contract(abi,contractaddress, {from: account, gasPrice: '5000000', gas: '500000'});
