@@ -3,4 +3,4 @@
 
 
 
-[medical_record_project](hospital.html)
+[medical_record_project](index.html)
