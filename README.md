@@ -69,9 +69,8 @@ npm start
 Open the Application
 Open your web browser and navigate to http://localhost:3000.
 
-Create an Account
-
-# Use Metamask to create and connect your Ethereum account.
+# Create an Account
+Use Metamask to create and connect your Ethereum account.
 
 # Access Health Records
 Use the web interface to create, view, and manage health records. Access controls and permissions are managed through smart contracts.
