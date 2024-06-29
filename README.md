@@ -9,6 +9,8 @@ Welcome to the Blockchain-Based Electronic Health Record (EHR) System! This syst
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
+- [Architecture](#architecture)
+- [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Smart Contracts](#smart-contracts)
 - [Contributing](#contributing)
@@ -23,20 +25,21 @@ Decentralized Storage: Health records are stored on the Ethereum blockchain, ens
 Security and Privacy: Access to health records is controlled through smart contracts, providing robust security and privacy controls.
 Transparency: All transactions and access logs are recorded on the blockchain, ensuring transparency and traceability.
 Interoperability: The system supports integration with existing health record management systems.
-Architecture
-The system consists of the following components:
 
-Ethereum Blockchain: The decentralized ledger where health records and transactions are stored.
-Smart Contracts: Written in Solidity, these contracts manage the creation, storage, and access control of health records.
-Frontend Application: A web-based interface for users to interact with the system.
-Backend Services: Node.js services that facilitate communication between the frontend and the blockchain.
-Prerequisites
+## Architecture
+The system consists of the following components:
+1. Ethereum Blockchain: The decentralized ledger where health records and transactions are stored.
+2. Smart Contracts: Written in Solidity, these contracts manage the creation, storage, and access control of health records.
+3. Frontend Application: A web-based interface for users to interact with the system.
+4. Backend Services: Node.js services that facilitate communication between the frontend and the blockchain.
+
+## Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-Node.js and npm installed
-Truffle Suite for managing smart contracts
-Ganache for local Ethereum blockchain simulation
-Metamask for managing Ethereum accounts and transactions
+1. Node.js and npm installed
+2. Truffle Suite for managing smart contracts
+3. Ganache for local Ethereum blockchain simulation
+4. Metamask for managing Ethereum accounts and transactions
 
 ## Installation
 Clone the Repository
