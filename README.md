@@ -92,5 +92,5 @@ We welcome contributions to the Blockchain-Based EHR System! To contribute, plea
 5. Open a Pull Request.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more information.Welcome to the Blockchain-Based Electronic Health Record (EHR) System! This system leverages Ethereum blockchain technology and Solidity smart contracts to provide a secure, decentralized, and transparent platform for managing electronic health records.
+This project is licensed under the MIT License. See the LICENSE file for more information.
 
